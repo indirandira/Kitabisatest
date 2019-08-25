@@ -1,5 +1,6 @@
 package com.kitabisa.steps;
 
+import cucumber.api.java.en.And;
 import net.thucydides.core.annotations.Steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -26,5 +27,4 @@ public class DefinitionSteps {
     public void thenTheyShouldSeeADefinitionContainingTheWords(String definition) {
         anna.should_see_definition(definition);
     }
-
 }
